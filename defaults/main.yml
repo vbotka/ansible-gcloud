@@ -1,7 +1,7 @@
 ---
 # defaults for gcloud
 
-gcloud_role_version: 1.0.1
+gcloud_role_version: 1.0.3
 gcloud_supported_distributions:
   - Ubuntu
 

@@ -5,6 +5,20 @@ vbotka.gcloud 1.0 Release Notes
 .. contents:: Topics
 
 
+1.0.3
+=====
+
+Release Summary
+---------------
+Update Ubuntu tasks.
+
+Major Changes
+-------------
+
+Minor Changes
+-------------
+
+
 1.0.2
 =====
 
