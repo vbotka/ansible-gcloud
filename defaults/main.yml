@@ -1,7 +1,8 @@
 ---
 # defaults for gcloud
 
-supported_distributions:
+gcloud_role_version: 1.0.1
+gcloud_supported_distributions:
   - Ubuntu
 
 # EOF
