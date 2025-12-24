@@ -5,6 +5,14 @@ vbotka.gcloud 1.0 Release Notes
 .. contents:: Topics
 
 
+1.0.2
+=====
+
+Release Summary
+---------------
+Fix README.
+
+
 1.0.1
 =====
 
