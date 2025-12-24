@@ -16,6 +16,11 @@ This role has been developed and tested with
 * [Ubuntu Supported Releases](http://releases.ubuntu.com/)
 
 
+## References
+
+- [Install the Google Cloud CLI](https://docs.cloud.google.com/sdk/docs/install-sdk)
+
+
 ## License
 
 [![license](https://img.shields.io/badge/license-BSD-red.svg)](https://www.freebsd.org/doc/en/articles/bsdl-gpl/article.html)

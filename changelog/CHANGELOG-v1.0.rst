@@ -17,6 +17,9 @@ Major Changes
 
 Minor Changes
 -------------
+* Add references to the README.
+* Add variables gcloud_install (default=true) and gcloud_ubuntu_required.
+* Install required Ubuntu packages.
 
 
 1.0.2
@@ -40,7 +43,7 @@ Major Changes
 Minor Changes
 -------------
 * Add meta data.
-* Add gloud_* variables.
+* Add gcloud_* variables.
 
 
 1.0.0
