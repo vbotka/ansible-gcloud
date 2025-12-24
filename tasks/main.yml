@@ -1,0 +1,12 @@
+---
+# tasks for gcloud
+
+- name: Fail if the distro is not supported.
+  ansible.builtin.assert:
+    that: ansible_facts.distribution in supported_distributions
+    fail_msg: "{{ ansible_facts.distribution }} is not supported."
+    quiet: true
+
+- name: Import tasks for Ubuntu.
+  ansible.builtin.import_tasks: ubuntu.yml
+  when: ansible_facts.distribution == 'Ubuntu'

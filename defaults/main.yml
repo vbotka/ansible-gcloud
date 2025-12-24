@@ -1,0 +1,7 @@
+---
+# defaults for gcloud
+
+supported_distributions:
+  - Ubuntu
+
+# EOF
