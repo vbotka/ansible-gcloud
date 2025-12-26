@@ -1,17 +1,22 @@
 ---
 # Ubuntu
 
-- name: Download the repository GPG key and dearmor it
+- name: Install required packages.
+  when: gcloud_install | bool
+  ansible.builtin.apt:
+    name: "{{ gcloud_ubuntu_required }}"
+
+- name: Download the repository GPG key and dearmor it.
   ansible.builtin.shell:  # noqa: command-instead-of-module risky-shell-pipe
     cmd: curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo gpg --dearmor -o /usr/share/keyrings/cloud.google.gpg
     creates: /usr/share/keyrings/cloud.google.gpg
 
-- name: Set correct permissions for the GPG key file
+- name: Set correct permissions for the GPG key file.
   ansible.builtin.file:
     path: /usr/share/keyrings/cloud.google.gpg
     mode: '0644'
 
-- name: Add the custom APT repository with signed-by attribute
+- name: Add the custom APT repository with signed-by attribute.
   ansible.builtin.apt_repository:
     repo: "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main"
     filename: google-cloud-cli

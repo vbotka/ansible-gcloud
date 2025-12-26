@@ -1,8 +1,16 @@
 ---
 # defaults for gcloud
 
-gcloud_role_version: 1.0.1
+gcloud_role_version: 1.0.3
 gcloud_supported_distributions:
   - Ubuntu
+gcloud_install: true
+
+# Ubuntu
+gcloud_ubuntu_required:
+  - apt-transport-https
+  - ca-certificates
+  - gnupg
+  - curl
 
 # EOF

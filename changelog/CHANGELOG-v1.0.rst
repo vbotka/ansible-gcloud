@@ -5,6 +5,25 @@ vbotka.gcloud 1.0 Release Notes
 .. contents:: Topics
 
 
+1.0.3
+=====
+
+Release Summary
+---------------
+Update Ubuntu tasks.
+
+Major Changes
+-------------
+
+Minor Changes
+-------------
+* Update README.
+* Add Notes to the README.
+* Add References to the README.
+* Add variables gcloud_install (default=true) and gcloud_ubuntu_required.
+* Install required Ubuntu packages.
+
+
 1.0.2
 =====
 
@@ -26,7 +45,7 @@ Major Changes
 Minor Changes
 -------------
 * Add meta data.
-* Add gloud_* variables.
+* Add gcloud_* variables.
 
 
 1.0.0
