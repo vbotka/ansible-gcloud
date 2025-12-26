@@ -1,6 +1,6 @@
-# gcloud
+# ansible-gcloud
 
-[![quality](https://img.shields.io/ansible/quality/27910)](https://galaxy.ansible.com/vbotka/gcloud)
+[![quality](https://img.shields.io/ansible/quality/27910)](https://galaxy.ansible.com/vbotka/ansible-gcloud)
 [![GitHub tag](https://img.shields.io/github/v/tag/vbotka/ansible-gcloud)](https://github.com/vbotka/ansible-gcloud/tags)
 
 [Ansible role](https://galaxy.ansible.com/vbotka/gcloud/). Install and configure [gcloud](https://docs.cloud.google.com/sdk/docs/install-sdk).
@@ -15,6 +15,15 @@ Feel free to [share your feedback and report issues](https://github.com/vbotka/a
 This role has been developed and tested with
 * [Ubuntu Supported Releases](http://releases.ubuntu.com/)
 
+
+## Notes
+
+* Install Python libraries.
+
+```
+(penv) > python3 -m pip install requests
+(penv) > python3 -m pip install google-auth
+```
 
 ## References
 

@@ -17,7 +17,9 @@ Major Changes
 
 Minor Changes
 -------------
-* Add references to the README.
+* Update README.
+* Add Notes to the README.
+* Add References to the README.
 * Add variables gcloud_install (default=true) and gcloud_ubuntu_required.
 * Install required Ubuntu packages.
 
